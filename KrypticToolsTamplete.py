@@ -34,7 +34,7 @@ def exitProgram(): # Exit Program Function Deffinition.
             exitCheck = True # Sets exitCheck to true, so the program can exit.
         elif user_exit == "N" or user_exit == "n" or user_exit == "No" or user_exit == "no": # Checks if the user said no.
             # Reset variables(If needed)
-
+            os.system('clear')
             break # Ends exit while loop
         else:
             print("Invalid Input. Please use 'Y' for Yes or 'N' for No. ") # Error message
